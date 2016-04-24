@@ -8,59 +8,87 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
+	<style>
+	
+		body {
+			
+		}
+		
+		.heading {
+			background-color: #81A597;
+			position: fixed;
+			width: 800px;
+			height: 120px;
+			top: -1px;
+			left: -1px;
+			text-align: center;
+		}
+		
+		.headBuffer {
+			height:120px;
+		}
+		
+		.footer {
+			background-color: green;
+			height: 50px;
+		}
+	</style>
+	
 </head>
 
 <body>
 
-	<div>
-		<a name="top" />
-		
+	<div class="heading">
 		<h1> Welcome to Maths Concepts </h1>
-		<h2> Where you will develop your mathematical concepts </h2>
+		<h3> Where you will develop your mathematical concepts </h3>
+	</div>
+	
+	<a name="top" />
+	
+	<div class="headBuffer"></div>
+	
+	<div>
+		<p><h2> Pythagoras Theorem</h2>
+		<strong> Pythagoras. </strong> was a Greek philosopher who is credited with making 
+		it easier on working with triangles.</p>
 		
-		<hr />
+		<img height=315px src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Kapitolinischer_Pythagoras_adjusted.jpg" />
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/uaj0XcLtN5c" frameborder="0" allowfullscreen></iframe>
 		
-		<p> This website is designed with <strong> your interest in mind </strong>.
-		We hope you enjoy it. <strike> I am really new at this. </strike> </p>
-		
-		<h2> The aim of this Website is: </h2>
-		
+	</div>
+	
+	<div>
+		<h3> Prior knowledge needed: </h3>
 		<ul>
-			<li> To help you discover you love for maths </li>
-			<li> Make you see the application of mathematics in real life </li>
-			<li> Help you achieve your gols in life </li>
+			<li> Ability change the subject of a formula </li>
+			<li> Manipulate simple algebraic equation </li>
+			<li> Being able to square and find roots of a number </li>
 		</ul>
 		
-		<img src="imgs/prince.jpg" height=100px/>
+		<h3> Steps in Solving Pythagoras problem </h3>
+		<ol>
+			<li> Find the square of all the sides </li>
+			<li> Rearrange the equation so that the unknown is by iteslf </li>
+			<li> Solve the equation to find the unknown </li>
+		<ol>
+	</div>
+		
+	<div>
+		<h3> Now try the following problem </h3>
+		<img src="imgs/problem.png" />
 		
 		<form>
 		
+			The Length b is: 
 			<input type="text" name="email"/>
+
 			<br /> <br />
-			<textarea name="comments"></textarea>
-			<br /> <br />
-			<input type="radio" name="colour" value="red" /> Red
-			<input type="radio" name="colour" value="green" /> Green
-			<input type="radio" name="colour" value="blue" /> Blue
-			<br /> <br />
-			<input type="checkbox" name="dog" value=1 /> Dog
-			<input type="checkbox" name="cat" value=2 /> Cat
-			<input type="checkbox" name="fish" value=1 /> Fish
-			<br /> <br />
-			<input type="submit" value="Click Me!">
-			
+			<input type="submit" value="Answer!">
 		</form>
-		
-		<p> <a href="http://www.google.com"> Google </a> </p>
-		<p> <a href="shake.html"> Shake </a> </p>
+	</div>
+	
+	<div class="footer">
 		<p> <a href="#top"> Back to top </a> </p>
-		
-		<table>
-			<tr><th>Topic</th><th>Skills</th><th>Achieved</th><th>Date</th></tr>
-			<tr><td>Pythagoras theorem</td><td>Changing Subject</td><td>Yes</td><td>1</td>
-		</table>
-		
-		<iframe width=600px height=400px src="shake.html"></iframe>
 	</div>
 
 </body>
