@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title> jQueryUI </title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.css">
+
+	<script type="text/javascript" src="jquery.min.js"> </script>
+	<script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+	<style>
+		#draggable {
+			width: 200px;
+			height: 200px;
+			background-color: green;
+			padding: 2em;
+			text-align: center;
+		}
+
+		#resizable {
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			padding: 2em;
+			text-align: center;
+			color: white;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="draggable"> You can drag me around! </div>
+
+	<div id="resizable"> You can change my size! </div>
+
+	<script>
+		$("#draggable").draggable();
+		$("#draggable").resizable();
+		$("#resizable").resizable();
+	</script>
+
+</body>
+
+</html>
